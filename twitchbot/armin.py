@@ -50,7 +50,7 @@ class Armin:
             count += case
 
         await ctx.send(
-            f"Es wurden schon {format(count, ',').replace(',', '.')} (+-100%) Neuinfektionen gemeldet, seit Kanzler-Elect Armin an der Macht ist. So klappt es nicht! strolchSauer")
+            f"Es wurden schon {format(count, ',').replace(',', '.')} (+-100%) Neuinfektionen gemeldet, seit Kanzler-Elect Armin an der Macht ist. So klappt es nicht! strolchWut")
 
     @commands.command(name="arminsagt")
     async def cmd_arminsagt(self, ctx):
